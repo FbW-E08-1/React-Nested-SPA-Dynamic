@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+
+header {
+  width: 100%;
+  height: 30%;
+  background-color: blue;
+}
+
+img {
+  padding: 25px 0 0 10px;
+  transform: rotate(7deg);
+}
+
+.card-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 30%;
+  height: 50%;
+  text-align: center;
+}
+
+.card1 {
+  background-color: violet;
+}
+
+.card2 {
+  background-color: teal;
+}
+
+.card3 {
+  background-color: tomato;
+}
+
+h2 {
+  color: whitesmoke;
+  padding-top: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: blue;
+}
+
+footer p {
+  color: whitesmoke;
+  padding: 15px;
+}
